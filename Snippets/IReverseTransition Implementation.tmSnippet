@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>//---------------------------------------
+// IReverseTransition implementation.
+//---------------------------------------
+
+//import org.springseed.navigator.view.transitions.IRetransition;
+
+/**
+ *	Starts the outbound transition playing.
+ */
+${1:override }public function startReverseTransition(): void {}
+
+/**
+ *	Stops the outbound transition playing.
+ */		
+$1public function stopReverseTransition(): void {}
+
+/**
+ *	Informs the navigation controller the outbound
+ *	transition for this controller/view is complete.
+ */		
+$1public function completeReverseTransition(): void {}
+
+/**
+ *	Must be invoked to inform the ICoreNavigationController
+ *	that the entire reverse transition sequence is complete
+ *	when this method is called the ICoreNavigationController
+ *	will proceed with processing the request that started the
+ *	reverse transition sequence.	
+ */
+$1public function reverseTransitionFinished(): void {}</string>
+	<key>name</key>
+	<string>IReverseTransition</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>uuid</key>
+	<string>1EA55A5E-3ABD-4DB6-819F-320783620C87</string>
+</dict>
+</plist>

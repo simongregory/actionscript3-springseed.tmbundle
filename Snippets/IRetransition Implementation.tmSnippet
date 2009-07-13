@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>//---------------------------------------
+// IRetransition implementation.
+//---------------------------------------
+
+//import org.springseed.navigator.view.transitions.IRetransition;
+
+/**
+ *	Starts the inbound re transition playing.
+ */
+${1:override }public function startRetransition() : void { $2 }
+		
+/**
+ *	Stops the inbound re transition playing.
+ */
+$1public function stopRetransition() : void { $3 }
+		
+/**
+ *	Informs the navigation controller the inbound
+ *	transition for this controller/view is complete.
+ */
+$1public function completeRetransition() : void { $4 }
+
+/**
+ *	Must be invoked when the entire transition process
+ *	is complete.	
+ */
+$1public function retransitionFinished() : void { $5 }</string>
+	<key>name</key>
+	<string>IRetransition</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>uuid</key>
+	<string>F030AD47-FC9F-47A9-9AC1-CB9A5F83B70F</string>
+</dict>
+</plist>

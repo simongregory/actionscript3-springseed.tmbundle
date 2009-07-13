@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>//---------------------------------------
+// IViewInvalidation implementation.
+//---------------------------------------
+
+//import org.springseed.navigator.view.transitions.IViewInvalidation;
+
+/**
+ *	@private
+ */
+${1:override }public function startViewInvalidation():void {$2}
+
+/**
+ *	@private
+ */
+$1public function stopViewInvalidation():void {$3}
+
+/**
+ *	@private
+ */
+$1public function completeViewInvalidation():void {$4}
+
+/**
+ *	@private
+ */
+$1public function viewInvalidationFinished():void {$5}</string>
+	<key>name</key>
+	<string>IViewInvalidation</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>uuid</key>
+	<string>0B0D7AFE-5FAB-49B7-9C97-B25752B74992</string>
+</dict>
+</plist>

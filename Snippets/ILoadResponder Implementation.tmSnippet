@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>//---------------------------------------
+// ILoadResponder implementation.
+//---------------------------------------
+
+//import com.ffsys.io.loaders.events.ILoadEvent;
+//import com.ffsys.io.loaders.events.ResourceNotFoundEvent;
+//import com.ffsys.io.loaders.events.LoadStartEvent;
+//import com.ffsys.io.loaders.events.LoadProgressEvent;
+
+/**
+ *	Event handler for Resource 404's.
+ */
+${1:override }public function resourceNotFoundHandler( event:ResourceNotFoundEvent ) : void
+{
+	$1
+}
+
+/**
+ *	Event handler for resource load start events.
+ */
+$1public function resourceLoadStart( event:LoadStartEvent ) : void
+{
+	$2
+}
+
+/**
+ *	Event hanlder for Load Progress events. 
+ */
+$1public function resourceLoadProgress( event:LoadProgressEvent ):void
+{
+	if( event.percentLoaded == -1 ){
+		//No load info is available.
+	} else {
+		//Visually show the update.
+	}
+	$3
+}
+
+/**
+ *	Event handler for rescource loaded events.
+ */
+$1public function resourceLoaded( event:ILoadEvent ):void
+{
+	$4
+}
+
+/**
+ *	NOTE: Doesn't seem to be fire. 
+ *	@see	#resourceLoaded Seem's to fire instead.
+ */
+$1public function resourceLoadComplete( event:LoadCompleteEvent ) : void
+{
+	$5
+}
+
+/**
+ *	@private
+ *	NOTE: Doesn't seem to be firing? Possibly as there aren't any siblings?
+ */
+$1public function cumulativeResourceLoadProgress( event:LoadProgressEvent ):void
+{
+	$6
+}</string>
+	<key>name</key>
+	<string>ILoadResponder</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>uuid</key>
+	<string>0E546B3D-2079-40A8-B543-00A8718A7BCC</string>
+</dict>
+</plist>

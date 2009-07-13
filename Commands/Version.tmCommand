@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -wKU
+
+require 'net/http'
+require ENV['TM_SUPPORT_PATH'] + "/lib/web_preview"
+
+STDOUT.sync = true
+
+puts html_head( :title =&gt; "Springseed Framework", :sub_title =&gt; "Checking Distribution Versions" )
+
+springseed_version_uri = ENV['TM_SPRINGSEED_HOME']+"/docs/version.txt"
+if File.exists?( springseed_version_uri )
+    puts "&lt;p&gt;Using Version: " + File.read( springseed_version_uri ) + "&lt;/p&gt;"
+else
+    puts "&lt;p&gt;Local Springseed framework not found (try setting TM_SPRINGSEED_HOME)&lt;/p&gt;"
+end
+
+springseed_version_url = "http://springseed.org/docs/version/"
+springseed_version = Net::HTTP.get(URI.parse( springseed_version_url ))
+
+if springseed_version
+    puts "&lt;p&gt;Latest Springseed Version: " + springseed_version.to_s + "&lt;/p&gt;"
+else
+    puts "&lt;p&gt;Unable determine latest distribution, try &lt;a href='#{springseed_version_url}'&gt;here&lt;/a&gt;&lt;/p&gt;"
+end
+
+puts "&lt;p&gt;&lt;a href='http://springseed.org/get/'&gt;Download Latest&lt;/a&gt;&lt;/p&gt;"
+
+html_footer</string>
+	<key>input</key>
+	<string>none</string>
+	<key>name</key>
+	<string>Version</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.actionscript.3.springseed, text.xml.springseed</string>
+	<key>uuid</key>
+	<string>38C499C5-95FD-462F-80C7-356589CEAFFC</string>
+</dict>
+</plist>

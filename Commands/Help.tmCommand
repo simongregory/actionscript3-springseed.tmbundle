@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>. "$TM_SUPPORT_PATH/lib/webpreview.sh"
+html_header "Springseed Framework Bundle Help" "Springseed"
+
+"$TM_SUPPORT_PATH/lib/markdown_to_help.rb" &lt;&lt;'EOF'
+# Overview
+
+Some useful links:
+
+[http://springseed.org/asdoc/](http://springseed.org/asdoc/)  
+[http://springseed.org/docs/readme/](http://springseed.org/docs/readme/)  
+[http://springseed.org/docs/changelog/](http://springseed.org/docs/changelog/)  
+[http://springseed.org/docs/license/](http://springseed.org/docs/license/)  
+[http://springseed.org/docs/version/](http://springseed.org/docs/version/)  
+
+To force a download of the current stable version of the distribution:  
+
+[http://springseed.org/get/][1]  
+
+These links are also available for the library dependencies:  
+
+[http://freeform-systems.com/asdoc/](http://freeform-systems.com/asdoc/)  
+[http://freeform-systems.com/docs/as3/readme/](http://freeform-systems.com/docs/as3/readme/)  
+[http://freeform-systems.com/docs/as3/changelog/](http://freeform-systems.com/docs/as3/changelog/)  
+[http://freeform-systems.com/docs/as3/license/](http://freeform-systems.com/docs/as3/license/)  
+[http://freeform-systems.com/docs/as3/version/](http://freeform-systems.com/docs/as3/version/)  
+
+To force a download of the latest distribution visit:  
+
+[http://freeform-systems.com/get/as3/](http://freeform-systems.com/get/as3/)  
+
+# Installation
+
+[Download Springseed][1] then unzip and move the resulting directory to a suitable location on your machine. Then let TextMate know where to find it by setting the [environmental variable](?environment_variables) `TM_SPRINGSEED_HOME` to point to it.
+
+# Configuration Options
+
+These environment variables allow you to define or customise the behavior of certain commands. For help on setting them up please see [TextMate help](?environment_variables).
+
+* `TM_SPRINGSEED_HOME`  
+The path to the Springseed release on your machine.
+
+[1]: http://springseed.org/get/
+
+EOF
+
+html_footer</string>
+	<key>input</key>
+	<string>none</string>
+	<key>name</key>
+	<string>Help</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>text.xml.springseed</string>
+	<key>uuid</key>
+	<string>1B5A60E1-3109-4B61-BFB6-D6250A12E14E</string>
+</dict>
+</plist>

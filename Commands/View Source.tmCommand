@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>if [[ -d "$TM_SPRINGSEED_HOME/source" ]]; then
+	mate "$TM_SPRINGSEED_HOME/source";
+else
+	echo "TM_SPRINGSEED_HOME Undefined/Is not a valid directory."
+	exit_show_tool_tip
+fi
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>name</key>
+	<string>View Source</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>uuid</key>
+	<string>A655CEC2-DB06-473D-B4EE-91CBAFCD76E3</string>
+</dict>
+</plist>

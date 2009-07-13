@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Completions</string>
+	<key>scope</key>
+	<string>text.xml.springseed</string>
+	<key>settings</key>
+	<dict>
+		<key>comment</key>
+		<string>Springseed XML Completions List</string>
+		<key>completions</key>
+		<array>
+			<string>AddressMap</string>
+			<string>AddressMapReference</string>
+			<string>AddressMapNode</string>
+			<string>AddressMapDataProvider</string>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>27C34E8F-6610-4932-97AC-3F9EE5F20FEF</string>
+</dict>
+</plist>

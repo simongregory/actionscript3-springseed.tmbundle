@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>fvzba@uryirpgbe.bet</string>
+	<key>contactName</key>
+	<string>Simon Gregory</string>
+	<key>description</key>
+	<string>&lt;a href="http://www.springseed.org/"&gt;Springseed&lt;/a&gt; is an ActionScript Development Framework.</string>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>E124F966-D4FE-43D8-9B9E-BBDB48B6BD22</string>
+			<string>9796BC08-76A2-4E74-94C8-03A42E0CD477</string>
+			<string>9790FCB3-BAFC-4A4A-B435-F4EF94C8D02A</string>
+			<string>------------------------------------</string>
+			<string>1B5A60E1-3109-4B61-BFB6-D6250A12E14E</string>
+			<string>285420A3-E8EF-4A99-B6BC-CD96C6457C6E</string>
+			<string>38C499C5-95FD-462F-80C7-356589CEAFFC</string>
+			<string>A655CEC2-DB06-473D-B4EE-91CBAFCD76E3</string>
+			<string>------------------------------------</string>
+			<string>50740B23-1F14-41C4-8AB1-0381E2538A2A</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>50740B23-1F14-41C4-8AB1-0381E2538A2A</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>1EA55A5E-3ABD-4DB6-819F-320783620C87</string>
+					<string>3C4B1103-60A2-46CE-8120-87502097C339</string>
+					<string>0E546B3D-2079-40A8-B543-00A8718A7BCC</string>
+					<string>F030AD47-FC9F-47A9-9AC1-CB9A5F83B70F</string>
+					<string>0B0D7AFE-5FAB-49B7-9C97-B25752B74992</string>
+				</array>
+				<key>name</key>
+				<string>Interface Implementations</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>name</key>
+	<string>Springseed</string>
+	<key>ordering</key>
+	<array>
+		<string>FBD9EF51-03CF-4B66-BC65-18BB0CE19C4F</string>
+		<string>B44E6E1C-6CEF-486F-8F52-A5234A1A5C40</string>
+		<string>0F881D40-9CE1-4B1C-A8AD-ADF613ADC798</string>
+		<string>413391E9-86B1-42BB-BBCF-B4E236C3D4BD</string>
+		<string>263A8664-29F2-4A0A-BC03-D85BDB4474A1</string>
+		<string>ABEC6E38-3F69-464F-866A-6C2D54C66258</string>
+		<string>27C34E8F-6610-4932-97AC-3F9EE5F20FEF</string>
+		<string>ABE931E0-91BD-4B4B-A9C6-9FD54E1422CB</string>
+		<string>31FD2741-A001-4893-8C3E-31E3AC5EEAFA</string>
+		<string>FF02D7BF-CEBE-4784-A7E8-153BB82F5179</string>
+		<string>DDA46856-3CA8-431D-A775-3B20743823CC</string>
+		<string>8B5681CF-84B7-4E4A-8DA1-2F2E910B7337</string>
+		<string>F494A023-B21A-4D1C-9CA2-4471ED1C41C9</string>
+		<string>224A1551-3C51-4CA4-AC2E-7E1BB1F50ED5</string>
+		<string>FC742015-E86D-409B-9B28-2809E759E518</string>
+		<string>E124F966-D4FE-43D8-9B9E-BBDB48B6BD22</string>
+		<string>9796BC08-76A2-4E74-94C8-03A42E0CD477</string>
+		<string>9790FCB3-BAFC-4A4A-B435-F4EF94C8D02A</string>
+		<string>285420A3-E8EF-4A99-B6BC-CD96C6457C6E</string>
+		<string>1B5A60E1-3109-4B61-BFB6-D6250A12E14E</string>
+		<string>EC26AFD7-6261-4625-BB6F-7E323AD9D05D</string>
+		<string>5D2BBDB7-9442-4690-8ED1-A1E2CB73976A</string>
+		<string>0E546B3D-2079-40A8-B543-00A8718A7BCC</string>
+		<string>F030AD47-FC9F-47A9-9AC1-CB9A5F83B70F</string>
+		<string>1EA55A5E-3ABD-4DB6-819F-320783620C87</string>
+		<string>3C4B1103-60A2-46CE-8120-87502097C339</string>
+		<string>0B0D7AFE-5FAB-49B7-9C97-B25752B74992</string>
+		<string>38C499C5-95FD-462F-80C7-356589CEAFFC</string>
+		<string>A655CEC2-DB06-473D-B4EE-91CBAFCD76E3</string>
+	</array>
+	<key>uuid</key>
+	<string>49085FDF-A0F5-42CA-8CCF-8EAEE710BB54</string>
+</dict>
+</plist>

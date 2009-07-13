@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>//---------------------------------------
+// ITransition implementation.
+//---------------------------------------
+
+//import org.springseed.navigator.view.transitions.ITransition;
+
+/**
+ *	Starts the inbound transition playing.
+ */
+${1:override }public function startTransition() : void
+{
+	$2
+}
+		
+/**
+ *	Stops the inbound transition playing.
+ */
+$1public function stopTransition() : void
+{
+	$3
+}
+		
+/**
+ *	Informs the navigation controller the inbound
+ *	transition for this controller/view is complete.
+ */
+$1public function completeTransition() : void
+{
+	$4
+}
+
+/**
+ *	Must be invoked when the entire transition process
+ *	is complete.	
+ */
+$1public function transitionFinished() : void
+{
+	$5
+}
+</string>
+	<key>name</key>
+	<string>ITransition</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>uuid</key>
+	<string>3C4B1103-60A2-46CE-8120-87502097C339</string>
+</dict>
+</plist>

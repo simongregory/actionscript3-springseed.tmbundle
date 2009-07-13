@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;AddressMapNode id="$1"&gt;
+	&lt;meta&gt;
+		&lt;title&gt;&lt;![CDATA[${1/[A-Z]/ $0/g}]]&gt;&lt;/title&gt;
+	&lt;/meta&gt;
+&lt;/AddressMapNode&gt;
+</string>
+	<key>name</key>
+	<string>AddressMapNode</string>
+	<key>scope</key>
+	<string>text.xml.springseed</string>
+	<key>tabTrigger</key>
+	<string>amn</string>
+	<key>uuid</key>
+	<string>5D2BBDB7-9442-4690-8ED1-A1E2CB73976A</string>
+</dict>
+</plist>

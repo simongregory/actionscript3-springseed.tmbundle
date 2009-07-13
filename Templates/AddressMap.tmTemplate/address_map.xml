@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><!--springseed-->
+<AddressMap
+	xmlns="http://springseed.org/address_map"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	uriWordDelimiter="_"
+	structureFileName="structure.xml"
+	pageTitleDelimiter=" | ">
+	<meta>
+		<title><![CDATA[Example Website]]></title>
+		<description>Example Application</description>
+		<tags>springseed, example</tags>
+	</meta>
+	<AddressMapNode id="test">
+		<meta>
+			<title><![CDATA[Test]]></title>
+		</meta>
+	</AddressMapNode>
+</AddressMap>

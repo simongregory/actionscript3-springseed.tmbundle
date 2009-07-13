@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completion_list>
+
+	<!-- Address Map -->
+
+	<AddressMap xmlns="http://springseed.org/address_map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uriWordDelimiter="_" structureFileName="structure.xml" pageTitleDelimiter=" | "> </AddressMap>
+	<AddressMapDataProvider id="mainNavigationDataProvider"> </AddressMapDataProvider>
+	<AddressMapNode id="news"> </AddressMapNode>
+	<AddressMapReference> </AddressMapReference>
+	<AddressMapInclude id="lazyIncludeChildren"> </AddressMapInclude>
+	<description>Springseed Example Application</description>
+	<meta> </meta>
+	<tags>springseed, example, demo</tags>
+	<title><![CDATA[Example Website]]></title>
+	
+	<!-- AddressTest -->
+	<AddressTestSequence id="testTitle" > </AddressTestSequence>
+	<AddressTest> </AddressTest>
+	<address> </address>
+
+	<!-- Configuration -->
+	<RuntimeConfiguration class="org.domain.application::RuntimeConfiguration"> </RuntimeConfiguration>
+	<ApplicationMeta></ApplicationMeta>
+	<name>Volkswagen Application</name>
+	<majorVersion>0</majorVersion>
+	<minorVersion>1</minorVersion>
+	<revision>0</revision>
+	
+	<NavigationOptions> </NavigationOptions>
+	<strict>true</strict>
+	<record>false</record>
+	<timeout>90</timeout>
+	<ignoreSameRequest>true</ignoreSameRequest>
+	<interruptable>false</interruptable>
+	<useTrailingSlash>false</useTrailingSlash>
+	<stopAllSounds>true</stopAllSounds>
+	<automaticallyAddValidatedDynamicChildren>false</automaticallyAddValidatedDynamicChildren>
+	
+	<UriCollection> </UriCollection>
+	<LoadAddressSpaceCollection> </LoadAddressSpaceCollection>
+	<LoadAddressSpace id="structure" type="xml" baseUri="{uri:xmlBaseUri}" relativeUri="{uri:structureUri}" />
+	
+	<!-- GlobalSettings -->
+	<GlobalSettings> </GlobalSettings>
+	
+	<!-- Locale -->
+	<LocaleCollection> </LocaleCollection>
+	<Locale id="fr" uriNode="fr" country="France" lang="FR" />	
+	<DefaultLocale id="en_uk" uriNode="en_gb" country="England" lang="en_GB"> </DefaultLocale>
+	
+	<!-- Structural -->
+	<DependencyCollection addressSpaceId="example">	</DependencyCollection>
+	<PropertyCollection id="propertyId"> </PropertyCollection>
+	<ResourceCollection formatter="org.domain.application::LoadMessageFormatter"> </ResourceCollection>
+	<StringCollection id="test"> </StringCollection>
+	<StructureValueObject> </StructureValueObject> 
+	<UriDependency id="exampleMovie" dependency="path/example_movie.swf" />
+	<UriSequenceDependency id="exampleSequence" dependency="" prefix="example_" extension="jpg" start="0" end="1" zeroPad="true"> </UriSequenceDependency>
+	
+</completion_list>

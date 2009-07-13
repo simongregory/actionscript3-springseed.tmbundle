@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Symbols List: AddressMapNode</string>
+	<key>scope</key>
+	<string>meta.tag.address-map-node.xml.springseed</string>
+	<key>settings</key>
+	<dict>
+		<key>showInSymbolList</key>
+		<integer>1</integer>
+		<key>symbolTransformation</key>
+		<string>		
+		s/.*\bid="(\w+)".*/$1/g;	# Keep id only.
+		s/^/Node: /;				# Add prefix.
+	</string>
+	</dict>
+	<key>uuid</key>
+	<string>0F881D40-9CE1-4B1C-A8AD-ADF613ADC798</string>
+</dict>
+</plist>
