@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;StructureValueObject&gt;$0&lt;/StructureValueObject&gt;
+</string>
+	<key>name</key>
+	<string>Structure</string>
+	<key>scope</key>
+	<string>text.xml.springseed</string>
+	<key>tabTrigger</key>
+	<string>structure</string>
+	<key>uuid</key>
+	<string>323CCD57-4669-4846-843C-384F393E45BE</string>
+</dict>
+</plist>

@@ -22,6 +22,7 @@
 			<string>A655CEC2-DB06-473D-B4EE-91CBAFCD76E3</string>
 			<string>------------------------------------</string>
 			<string>50740B23-1F14-41C4-8AB1-0381E2538A2A</string>
+			<string>71A41F96-7975-4B49-8EF6-01ECCFF6C593</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -37,6 +38,17 @@
 				</array>
 				<key>name</key>
 				<string>Interface Implementations</string>
+			</dict>
+			<key>71A41F96-7975-4B49-8EF6-01ECCFF6C593</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>EC26AFD7-6261-4625-BB6F-7E323AD9D05D</string>
+					<string>5D2BBDB7-9442-4690-8ED1-A1E2CB73976A</string>
+					<string>323CCD57-4669-4846-843C-384F393E45BE</string>
+				</array>
+				<key>name</key>
+				<string>XML</string>
 			</dict>
 		</dict>
 	</dict>
