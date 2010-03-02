@@ -7,7 +7,7 @@
 		<string>springseed.xml</string>
 	</array>
 	<key>firstLineMatch</key>
-	<string>&lt;\!--springseed--&gt;</string>
+	<string>&lt;\!--\s*[Ss]pringseed\s*--&gt;</string>
 	<key>foldingStartMarker</key>
 	<string>^\s*(&lt;[^!?%/](?!.+?(/&gt;|&lt;/.+?&gt;))|&lt;[!%]--(?!.+?--%?&gt;)|&lt;%[!]?(?!.+?%&gt;))</string>
 	<key>foldingStopMarker</key>
